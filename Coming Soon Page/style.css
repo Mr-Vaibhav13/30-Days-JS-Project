@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content h1 span{
+    color: #d95f6f;
+}
+
+.content button{
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    padding: 12px 25px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+    cursor: pointer;
+}
+
+
+.content button img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+
+.launch{
+    display: flex;
+}
+
+.launch div{
+    flex-basis: 100px;
+}
+
+.launch div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+
+

@@ -1,6 +1,7 @@
 // API used is open Weather
 const apiKey= " <Your Api key here> ";
 const apiUrl=" <URL here> ";
+// For reference refer First commit
 
 const weatherIcon = document.querySelector(".weather-icon");
 const searchBox = document.querySelector(".search input");
